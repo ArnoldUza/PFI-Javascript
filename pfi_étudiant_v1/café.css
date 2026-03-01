@@ -1,0 +1,116 @@
+/* CSS pour le bouton supprimer */
+.btn-supprimer {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.btn-supprimer:hover {
+    background-color: #ff3333;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.item_liste {
+    overflow-x: auto;
+    /* ajout d'une 'scroll bar' */
+}
+
+ul {
+    padding: 0 20px;
+}
+
+li {
+    min-width: 200px;
+    max-width: 200px;
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+th,
+td {
+    width: 100px;
+    text-align: right;
+}
+
+td {
+    text-align: right;
+}
+
+div>label {
+    display: block;
+}
+
+.conteneur {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+
+.gauche {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+    margin-top: 20px;
+}
+
+.droite {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0 15px 15px;
+}
+
+.entete {
+    width: 100%;
+    background: lightsteelblue
+}
+
+.pied_de_page {
+    width: 100%;
+    background: lightsteelblue
+}
+
+.dollar::before {
+    content: "$";
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a>span {
+    display: block;
+    padding: 4px 10px;
+    background: beige;
+    color: blue;
+    /* font-size: 12px; */
+}
+
+.erreur {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 2px;
+}
